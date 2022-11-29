@@ -5,7 +5,7 @@ Python: 3.8.13
 Install system packages:
 
     sudo apt update
-    sudo apt install python3-pip gfortran libopenblas-dev liblapack-dev
+    sudo apt install python3-pip gfortran libopenblas-dev libatlas-base-dev liblapack-dev
 
    
 Install PyTorch:
