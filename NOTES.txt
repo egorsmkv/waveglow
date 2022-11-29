@@ -25,7 +25,7 @@ Install deps
 
 Fix errors
 
-     pip install numba==0.48 resampy==0.3.1
+     pip install numba==0.48 resampy==0.3.1 tensorboard
      pip uninstall joblib
      pip install joblib==1.1.0
 
