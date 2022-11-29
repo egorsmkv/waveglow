@@ -1,0 +1,20 @@
+
+My GPU: NVIDIA RTX A4000
+Python: 3.8.13
+
+Install system packages:
+
+    sudo apt update
+    sudo apt install python3-pip
+
+   
+Install PyTorch:
+
+    pip install torch==1.7.1+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
+Clone the repo
+
+  git clone https://github.com/egorsmkv/waveglow
+  cd waveglow
+  git submodule init
+  git submodule update
