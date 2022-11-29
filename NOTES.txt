@@ -42,7 +42,7 @@ Download data
 Train
 
     mkdir checkpoints
-    python train.py -c config.json
+    python3 train.py -c config.json
 
     nohup python3 train.py -c config.json > training.out 2>&1 &
 
