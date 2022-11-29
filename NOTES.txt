@@ -23,6 +23,10 @@ Install deps
 
     pip3 install -r requirements.txt
 
+Fix errors
+
+     pip install numba==0.48 resampy==0.3.1
+
 Download data
 
     wget https://huggingface.co/datasets/Yehor/ukrainian-tts-lada/resolve/main/dataset_lada_trimmed_22khz.zip
@@ -30,3 +34,4 @@ Download data
     
     mv dataset_lada_trimmed/accept data
     
+ 
