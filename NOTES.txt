@@ -50,9 +50,9 @@ Train
 
 Run the tesorboard:
 
-    tensorboard --logdir checkpoints/logs
+    ~/.local/bin/tensorboard --logdir checkpoints/logs
 
 or 
 
-    nohup tensorboard --bind_all --logdir checkpoints/logs > tensorboard.out 2>&1 &
+    nohup ~/.local/bin/tensorboard --bind_all --logdir checkpoints/logs > tensorboard.out 2>&1 &
 
