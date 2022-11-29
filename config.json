@@ -9,7 +9,7 @@
         "batch_size": 12,
         "seed": 1234,
         "checkpoint_path": "",
-        "with_tensorboard": false
+        "with_tensorboard": true
     },
     "data_config": {
         "training_files": "train_files.txt",
