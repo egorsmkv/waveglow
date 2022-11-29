@@ -34,4 +34,13 @@ Download data
     
     mv dataset_lada_trimmed/accept data
     
+ Generate train lists
  
+    ls data/*.wav | tail -n+10 > train_files.txt
+    ls data/*.wav | head -n10 > test_files.txt
+
+Train
+
+    mkdir checkpoints
+    python train.py -c config.json
+
