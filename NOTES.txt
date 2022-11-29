@@ -18,3 +18,7 @@ Clone the repo
   cd waveglow
   git submodule init
   git submodule update
+
+Install deps
+
+    pip3 install -r requirements.txt
