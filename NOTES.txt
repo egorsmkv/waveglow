@@ -26,6 +26,8 @@ Install deps
 Fix errors
 
      pip install numba==0.48 resampy==0.3.1
+     pip uninstall joblib
+     pip install joblib==1.1.0
 
 Download data
 
