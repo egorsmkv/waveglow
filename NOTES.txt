@@ -44,3 +44,13 @@ Train
     mkdir checkpoints
     python train.py -c config.json
 
+    nohup python3 train.py -c config.json > training.out 2>&1 &
+
+Run the tesorboard:
+
+    tensorboard --logdir outdir/logs
+
+or 
+
+    nohup tensorboard --bind_all --logdir outdir/logs > tensorboard.out 2>&1 &
+
